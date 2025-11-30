@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\ClikeEditor;
+namespace Ladmin\ClikeEditor;
 
-use Encore\Admin\Extension;
+use Ladmin\Extension;
 
 class ClikeEditor extends Extension
 {

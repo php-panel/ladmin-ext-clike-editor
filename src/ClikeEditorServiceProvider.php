@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\ClikeEditor;
+namespace Ladmin\ClikeEditor;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
+use Ladmin\Admin;
+use Ladmin\Form;
 use Illuminate\Support\ServiceProvider;
 
 class ClikeEditorServiceProvider extends ServiceProvider

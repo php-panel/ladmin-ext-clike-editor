@@ -1,32 +1,45 @@
 {
-    "name": "laravel-admin-ext/clike-editor",
+    "name": "php-panel/ladmin-ext-clike-editor",
     "description": "Several c-lick language editor extensions for laravel-admin based on code-mirror",
     "type": "library",
-    "keywords": ["laravel-admin", "extension", "code-mirror", "editor", "clang", "cpp", "java", "objectivec", "scala", "kotlin", "Ceylon"],
-    "homepage": "https://github.com/laravel-admin-ext/clike-editor",
+    "keywords": [
+        "laravel-admin",
+        "extension",
+        "code-mirror",
+        "editor",
+        "clang",
+        "cpp",
+        "java",
+        "objectivec",
+        "scala",
+        "kotlin",
+        "Ceylon"
+    ],
+    "homepage": "https://github.com/php-panel/ladmin-ext-clike-editor",
     "license": "MIT",
     "authors": [
         {
-            "name": "song",
-            "email": "zosong@126.com"
+            "name": "leeqvip",
+            "email": "leeqvip@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "jxlwqq/code-mirror": "*"
+        "php": ">=8.2.0",
+        "php-panel/laravel-admin": "^3.0.3",
+        "php-panel/ladmin-ext-code-mirror": "dev-master"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0"
+        "phpunit/phpunit": "~11.0"
     },
     "autoload": {
         "psr-4": {
-            "Encore\\ClikeEditor\\": "src/"
+            "Ladmin\\ClikeEditor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\ClikeEditor\\ClikeEditorServiceProvider"
+                "Ladmin\\ClikeEditor\\ClikeEditorServiceProvider"
             ]
         }
     }

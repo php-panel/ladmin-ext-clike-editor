@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\ClikeEditor;
+namespace Ladmin\ClikeEditor;
 
-use Encore\Admin\Form\Field;
-use Jxlwqq\CodeMirror\CodeMirror;
+use Ladmin\Form\Field;
+use Ladmin\CodeMirror\CodeMirror;
 
 abstract class Editor extends Field
 {
@@ -18,18 +18,18 @@ abstract class Editor extends Field
      * {@inheritdoc}
      */
     protected static $css = [
-        CodeMirror::ASSETS_PATH.'lib/codemirror.css',
-        CodeMirror::ASSETS_PATH.'addon/hint/show-hint.css',
+        CodeMirror::ASSETS_PATH . 'lib/codemirror.css',
+        CodeMirror::ASSETS_PATH . 'addon/hint/show-hint.css',
     ];
 
     /**
      * {@inheritdoc}
      */
     protected static $js = [
-        CodeMirror::ASSETS_PATH.'lib/codemirror.js',
-        CodeMirror::ASSETS_PATH.'addon/edit/matchbrackets.js',
-        CodeMirror::ASSETS_PATH.'addon/hint/show-hint.js',
-        CodeMirror::ASSETS_PATH.'mode/clike/clike.js',
+        CodeMirror::ASSETS_PATH . 'lib/codemirror.js',
+        CodeMirror::ASSETS_PATH . 'addon/edit/matchbrackets.js',
+        CodeMirror::ASSETS_PATH . 'addon/hint/show-hint.js',
+        CodeMirror::ASSETS_PATH . 'mode/clike/clike.js',
     ];
 
     /**

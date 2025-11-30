@@ -6,7 +6,7 @@ Several c-lick language editor extensions for laravel-admin based on code-mirror
 ## Installation 
 
 ```bash
-composer require laravel-admin-ext/clike-editor
+composer require php-panel/ladmin-ext-clike-editor
 
 php artisan vendor:publish --tag=laravel-admin-code-mirror
 ```
@@ -59,12 +59,6 @@ $form->ceylon('code');
 ```php
 $form->clang('code')->height(500);
 ```
-
-## 支持
-
-如果觉得这个项目帮你节约了时间，不妨支持一下;)
-
-![-1](https://cloud.githubusercontent.com/assets/1479100/23287423/45c68202-fa78-11e6-8125-3e365101a313.jpg)
 
 License
 ------------

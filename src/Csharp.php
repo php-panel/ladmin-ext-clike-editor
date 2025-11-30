@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\ClikeEditor;
+namespace Ladmin\ClikeEditor;
 
 class Csharp extends Editor
 {
